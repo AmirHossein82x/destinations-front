@@ -2,7 +2,11 @@
   --orange: #E76F51;
   --white: #fff;
   --gray: #D2D2D2;
-  --dark: #3b3735
+  --dark: #3b3735;
+  --app-bg: #FAF4F2;
+  --primary-font: "Roboto", Arial, Helvetica, sans-serif;
+  --primary-font-md: "Roboto Medium", Arial, Helvetica, sans-serif;
+  --secondary-font: "Archivo", Arial, Helvetica, sans-serif;
 }
 
 
@@ -20,8 +24,9 @@ html {
 
 body {
   line-height: 1.6;
-  font-family: "Roboto";
+  font-family: var(--primary-font);
   font-size: 1.6rem;
+  background-color: var(--app-bg);
 }
 
 a {
@@ -40,7 +45,7 @@ a {
   align-items: center;
   margin-right: auto;
   margin-left: auto;
-  font-family: "Roboto Medium";
+  font-family: var(--primary-font-md);
 }
 
 .header {
@@ -95,7 +100,7 @@ a {
 }
 .nav__link{
   color: var(--white);
-  font-family: "Roboto Medium";
+  font-family: var(--primary-font-md);
   margin-left: 1.5rem;
   
 }
@@ -210,7 +215,7 @@ a {
 .nav__menu__title {
   color: var(--white);
   font-size: 2rem;
-  font-family: "Archivo";
+  font-family: var(--secondary-font);
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   text-align: center;
@@ -318,7 +323,7 @@ a {
 .header-content__title{
   margin-top: 6rem;
   font-size: 4.5rem;
-  font-family: "Archivo";
+  font-family: var(--secondary-font);
   line-height: 1.2;
   margin-bottom: 2rem;
   max-width: 35rem;
@@ -336,4 +341,178 @@ a {
 }
 .header-content-link{
   background-color: var(--orange);
+}
+
+
+
+.main {
+
+}
+
+.services{
+  margin-top: -15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  
+
+}
+.service{
+  text-align: center;
+  background-color: var(--white);
+  height: 36rem;
+  width: 30rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:0 3rem ;
+  color: var(--dark);
+
+}
+.service__img{
+  display: block;
+  
+
+}
+.service__title{
+  font-family: var(--secondary-font);
+  font-size: 1.8rem;
+  margin: 1rem 0;
+
+}
+.service__caption{
+
+}
+
+
+
+.destinations{
+  text-align: center;
+  padding: 6rem 0;
+}
+.destinations__logo{
+
+}
+.destination__title{
+  font-family: var(--secondary-font);
+  font-size: 3rem;
+  max-width: 36rem;
+  
+  margin: 3rem auto;
+
+}
+.destinations__places{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+
+}
+.place{
+  background-color: var(--white);
+  border-radius: 2rem;
+  padding: 3rem;
+  color: var(--dark);
+  margin-bottom: 2rem ;
+  flex-grow: 1;
+  max-width: 30rem;
+  
+
+}
+.place__banner{
+  position: relative;
+  border-radius: 2rem;
+  overflow: hidden;
+  height: 18rem;
+
+}
+
+.place__image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+
+
+}
+
+.place__like{
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+
+}
+.place__like-icon{
+
+}
+
+.place__price{
+  background-color: var(--white);
+  position: absolute;
+  bottom: -1rem;
+  margin: 0 auto;
+  width: 12rem;
+  right: 0;
+  left: 0;
+  border-radius: 1rem;
+  padding: 0.5rem;
+
+}
+.place__price-text{
+  font-family: var(--primary-font-md);
+  color: var(--orange);
+  text-align: center;
+  padding: 0.5rem 2rem;
+}
+.place__title{
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  font-family: var(--secondary-font);
+
+}
+.place__caption{
+  margin-bottom: 2rem;
+
+}
+.place__link{
+  color: #8d8d8d;
+  background-color: rgba(141, 141, 141, 0.1);
+  
+}
+
+
+
+
+.destination__btn {
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  background-color: transparent;
+  transition: all 200ms ease-in;
+  margin-top: 3rem;
+
+
+}
+
+
+.destination__btn:hover {
+  color: var(--white);
+  border: 1px solid var(--orange);
+  background-color: var(--orange);
+  
+
+
 }
