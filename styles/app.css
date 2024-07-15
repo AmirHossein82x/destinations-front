@@ -486,6 +486,7 @@ a {
 }
 .place__caption{
   margin-bottom: 2rem;
+  font-family: var(--primary-font);
 
 }
 .place__link{
@@ -514,5 +515,78 @@ a {
   background-color: var(--orange);
   
 
+
+}
+
+
+
+.newsletter{
+  background-color: #fbe1db;
+  border-radius: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.newsletter__content{
+  padding: 3rem;
+
+}
+.newsletter__title{
+  font-family: var(--secondary-font);
+  font-size: 3rem;
+  max-width: 16rem;
+  margin: 2rem auto;
+
+}
+.newsletter__caption{
+  font-family: var(--primary-font-md);
+
+}
+.newsletter__email-box{
+  background-color: var(--white);
+  position: relative;
+  height: 6rem;
+  width: 30rem;
+  border-radius: 2rem;
+  margin: 2rem auto;
+
+}
+.newsletter__image{
+  width: 100%;
+
+}
+
+.newsletter__form{
+  height: 100%;
+  display: flex;
+  justify-content:space-between;
+  border-radius: 2rem;
+  align-items: center;
+  line-height: 3rem;
+  padding: 0 2rem;
+}
+.newsletter__txt{
+  outline: none;
+  border: none;
+  color: var(--gray);
+
+}
+.newsletter__submit{
+  outline: none;
+  border: none;
+  background-color: var(--orange);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 2rem;
+  flex-shrink: 0;
+
+}
+.newsletter__banner{
+
+}
+.newsletter__image{
 
 }

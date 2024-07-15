@@ -28,6 +28,35 @@
     .menu{ 
         display: flex;
     }
+
+    .newsletter__image {
+        
+        max-width: 30rem;
+    }
+    .newsletter{
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-around;
+
+    }
+
+    .newsletter__title {
+        text-align: left;
+        max-width: 50rem;
+        margin: 2rem 0;
+    }
+
+    .newsletter__caption {
+        text-align: left;
+        max-width: 50rem;
+        margin: 2rem 0;
+    }
+
+    .newsletter__email-box {
+        margin: 2rem 0;
+        width: 100%;
+        margin: 2rem 0;
+    }
     
 }
 
